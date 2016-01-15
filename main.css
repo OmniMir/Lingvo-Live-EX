@@ -6,87 +6,67 @@ html, body, #main {
 }
 /*Windows Style Buttons*/
 #buttonMinimize, #buttonMaximize, #buttonClose{
-    height: 30px;
-    width: 30px;
-    color: #f3f3f3;
-    font-size: 20px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    color: rgba(255,255,255,.7);;
+    display: block;
+    font-size: 30px;
     text-align: center;
     cursor: pointer;
-    background: -webkit-linear-gradient(top,rgba(255,255,255,.3) 0,rgba(255,255,255,.2) 100%);
-    background: linear-gradient(to bottom,rgba(255,255,255,.3) 0,rgba(255,255,255,.2) 100%);
-    border-radius: 3px;
     position: absolute;
-    top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 2px;
+    left: 5px;
     -webkit-app-region: no-drag;
+
 }
 .minimize {
-    right: 67px;
+    top: 70px;
 }
 .maximize {
-    right: 36px;
+    top: 120px;
 }
 .close {
-    right: 5px;
+    top: 170px;
+    font-size: 30px;
 }
 #buttonMinimize:hover, #buttonMaximize:hover, #buttonClose:hover {
-  background:-webkit-linear-gradient(top,rgba(255,255,255,.4) 0,rgba(255,255,255,.3) 100%);
-  background:linear-gradient(to bottom,rgba(255,255,255,.4) 0,rgba(255,255,255,.3) 100%);
-  color:#fff
+  background: rgba(255,255,255,.05);
 }
 
 /*Drag zone*/
 #drag {
   position: absolute;
   -webkit-app-region: drag;
-  /*background: white;*/
 }
-.header-top {
-    height: 5px;
-    width: 100%;
+.header-left {
+    top: 60px;
+    width: 5px;
+    bottom: 0px;
 }
-.header-bottom {
-    top: 35px;
-    height: 5px;
-    width: 100%;
+.header-right {
+    top: 60px;
+    left: 55px;
+    width: 5px;
+    bottom: 0px;
 }
 .header1 {
-  top: 5px;
-  height: 30px;
-  width: 5px;
+  top: 60px;
+  left: 5px;
+  height: 185px;
+  width: 50px;
 }
 .header2 {
-  top: 5px;
-  height: 30px;
-  left: 96px;
-  width: 8px;
+  top: 435px;
+  left: 5px;
+  bottom: 50px;
+  width: 50px;
 }
 .header3 {
-  top: 5px;
-  height: 30px;
-  left: 250px;
-  width: calc(50vw - 40px);
-}
-.header4 {
-  top: 5px;
-  height: 30px;
-  width: calc(50vw + 40px - 5pc - 243px - 96px);
-  right: calc(243px+96px);
-}
-.header5 {
-  top: 5px;
-  height: 30px;
-  width: calc(50vw - 100px);
-  width: 8px;
-}
-.header6 {
-  top: 5px;
-  height: 30px;
-  right: calc(50vw - 200px);
-  width: 8px;
-}
-.header7 {
-  top: 5px;
-  height: 30px;
-  right: 0px;
-  width: 96px;
+  height: 10px;
+  left: 5px;
+  bottom: 0px;
+  width: 50px;
 }

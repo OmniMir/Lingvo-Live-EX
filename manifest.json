@@ -4,7 +4,7 @@
    "name": "Lingvo Live EX",
    "short_name": "Lingvo Live EX",
    "description": "External Frameless Chrome Window for Lingvo Live",
-   "version": "0.1",
+   "version": "0.1.1",
    "icons": {
       "16": "assets/16.png",
       "32": "assets/32.png",
